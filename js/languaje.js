@@ -36,8 +36,8 @@ function changeLanguage(language) {
     italian: {
       menu_about_me: "Chi sono",
       menu_experience: "Esperienze",
-      menu_education: "Educazione",
-      menu_skills: "Abilità",
+      menu_education: "Formazione",
+      menu_skills: "Skills",
       menu_interests: "Interessi",
       menu_awards: "Premi",
     },
