@@ -234,4 +234,72 @@ html, body {
   font-size: 0.9em;
 }
 
+@media (max-width: 576px) {
+  .card {
+    width: 280px !important;
+  }
+  .card .additional {
+    width: 100px;
+  }
+  .card .additional .user-card {
+    width: 100px !important;
+  }
+  .card .additional .more-info {
+    width: 130px;
+    float: left;
+    position: absolute;
+    left: 100px;
+    height: 100%;
+}
+.card .additional .stats{
+  position: relative !important;
+  bottom:initial;
+}
+  div.user-card > img{
+    width: 80px;
+    height: 80px;
+  }
+  .card .additional .coords span, .card .additional .status span{
+    display: block;
+  }
+
+  .card .additional .coords, .card .additional .status {
+    margin: initial;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card .additional .coords span + span, .card .additional .status span + span  {
+  float: none;
+  }
+
+  .card .general{
+    width: 200px !important;
+    left: 90px;
+  }
+  .card h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .card .general .more {
+    position: relative; 
+    bottom: 1rem;
+    top:5px;
+    right: auto;
+}
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 1200px) {
+  
+}
 
