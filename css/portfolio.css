@@ -289,6 +289,11 @@ html, body {
     top:5px;
     right: auto;
 }
+.card .additional .stats div.title {
+  font-size: 0.65rem;
+  font-weight: initial;
+  text-transform: initial;
+}
 }
 
 @media (max-width: 768px) {
